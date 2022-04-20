@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+element.style {
+}
+[class*=page-header] [class*=main-wrapper] [class|=text] h1>span {
+    position: relative;
+
+}
+h1 [class*=split], [class*=h1] [class*=split] {
+    overflow: hidden;
+    display: flex;
+}
+h1>span, [class*=h1]>span, h2>span, [class*=h2]>span, h3>span, [class*=h3]>span, h4>span, [class*=h4]>span, h5>span, [class*=h5]>span, h6>span, [class*=h6]>span {
+    display: block;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+* {
+    text-rendering: optimizeLegibility;
+}
+h1[class*=uppercase], h2[class*=uppercase], h3[class*=uppercase], h4[class*=uppercase], h5[class*=uppercase], h6[class*=uppercase], a[class*=uppercase], p[class*=uppercase], strong[class*=uppercase], b[class*=uppercase], span[class*=uppercase] {
+    text-transform: uppercase;
+}
+h1[class*=uppercase], [class*=h1][class*=uppercase], h2[class*=uppercase], [class*=h2][class*=uppercase], h3[class*=uppercase], [class*=h3][class*=uppercase], h4[class*=uppercase], [class*=h4][class*=uppercase], h5[class*=uppercase], [class*=h5][class*=uppercase], h6[class*=uppercase], [class*=h6][class*=uppercase] {
+    text-transform: uppercase;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Tusker Grotesk",sans-serif;
+}
+h1, [class*=h1], h2, [class*=h2], h3, [class*=h3], h4, [class*=h4], h5, [class*=h5], h6, [class*=h6] {
+    font-weight: 500;
+    line-height: 1;
+}
+user agent stylesheet
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    line-height: 1;
+}
+style attribute {
+    --viewport-height: 665px;
+}
+html {
+    line-height: 1.1;
+    font-size: 16px;
+    color: #f5eee6;
+    font-family: "Tusker Grotesk",sans-serif;
+}
+::selection {
+    background: #f4f4f4;
+    color: #fff;
+}
